@@ -1134,6 +1134,7 @@ export
     mark,
     mmap_array,
     mmap_bitarray,
+    msync,
     nb_available,
     ntoh,
     open,

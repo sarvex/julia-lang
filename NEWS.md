@@ -244,6 +244,9 @@ Deprecated or removed
   * The operators `|>`, `.>`, `>>`, and `.>>` as used for process I/O redirection
     are replaced with the `pipe` function ([#5349]).
 
+  * Low-level functions from the C library and dynamic linker have been moved to
+    modules `Libc` and `Libdl`, respectively ([#10328]).
+
 Julia v0.3.0 Release Notes
 ==========================
 
